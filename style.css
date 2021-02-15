@@ -1,0 +1,177 @@
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 10px;
+}
+a:link{
+    text-decoration: none;
+    font-family: Verdana, san-serif;
+    font-size: 85%;
+}
+a:hover{
+    text-decoration: underline;
+}
+ul li{
+    margin: 5px;
+    color: darkseagreen;
+}
+li a{
+    color: darkseagreen;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.center{
+    justify-content: center;
+}
+@media screen and (min-width: 768px){
+.col-1 {flex-basis: 8.33%;}
+.col-2 {flex-basis: 16.66%;}
+.col-3 {flex-basis: 25%;}
+.col-4 {flex-basis: 33.33%;}
+.col-5 {flex-basis: 41.66%;}
+.col-6 {flex-basis: 50%;}
+.col-7 {flex-basis: 58.33%;}
+.col-8 {flex-basis: 66.66%;}
+.col-9 {flex-basis: 75%;}
+.col-10 {flex-basis: 83.33%;}
+.col-11 {flex-basis: 91.66%;}
+.col-12 {flex-basis: 100%;}
+}
+[class="col-*"]{
+    flex-basis: 100%;
+}
+
+.right{
+    text-align: right;
+}
+.container{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+.profile{
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+.tagstyle{
+    border: 1px;
+    display: inline-block;
+    padding: 5px;
+    font-family: Verdana, sans-serif;
+    font-size: 85%;
+    border-radius: 5px;
+}
+.coursework{
+    margin-left: 5px;
+    background-color: blanchedalmond;
+    color: darkgoldenrod;
+}
+.luhn{
+    background-color: lavenderblush;
+    color: palevioletred;
+}
+.gene{
+    background-color: lavender;
+    color: rebeccapurple;
+}
+.code{
+    color: lightcoral;
+    font-size: 85%;   
+}
+.project{
+    display: inline-block;
+    padding: 5px;
+    color:lightcoral;
+}
+img.pp{
+    border-radius: 5px;
+}
+.personal a{
+    color:lightcoral;
+}
+.text{
+    font-family: 'Mulish', sans-serif;
+}
+h1
+{
+    font-family: 'Patua One', cursive;
+    color: cadetblue;
+}
+h2
+{
+    font-family: 'Patua One', cursive;
+    color: lightcoral;
+}
+@media screen and (max-width: 768px) {
+    div.col-4{
+      float: none;
+      width: 100%;
+      text-align: left;
+    }
+    .luhn, .gene{
+        text-align: left;
+    }
+}
+@media screen and (max-width: 885px) {
+    div.tags{
+        float: none;
+        width: 100%;
+        text-align: left;
+    }
+}
+@media screen and (max-width: 600px) {
+    .text{
+        font-size: 75%;
+    }
+    h1{
+        font-size: 25px;
+        text-align: center;
+    }
+    h2{
+        font-size: 20px;
+        text-align: center;
+    }
+    a:link{
+        font-size: 75%;
+    }
+    ul li{
+        margin: 2px;
+    }
+    nav ul {
+        padding: 5px;
+    }
+    img{
+        width: 75%;
+        height: 100%
+    }
+    .profile{
+        width: 180px;
+        height: 180px;
+    }
+    .personal{
+        flex-basis: 100%;
+        text-align: center;
+    }
+    i.fas, i.far, i.fab{
+        font-size: 12px;
+    }
+}
+i.fas:hover, i.far:hover, i.fab:hover{
+    text-decoration: underline;
+}
+.fa-laptop-code, .fa-file-alt, .fa-linkedin, .fa-github{
+    font-size: 15px;
+}
+

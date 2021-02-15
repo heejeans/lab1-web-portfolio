@@ -4,27 +4,37 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Credit Card Validator</title>
         <ul>
-            <li><a href="index.html#credit" target="_self">Go Back</a></li>
+            <li><a class="back" href="index.html#credit" target="_self">Go Back</a></li>
         </ul>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&family=Patua+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     </head>
     <body>
-        <h2>Credit Card Number Validator</h2>
-        <p>
-            <img src="assets/cc.jpg" alt="credit card validator code" width="580" height="285"><br>
-            Joy Son<br><i>CS50 Harvard edX, 2021</i><br>Luhn's Algorithm
-        </p>
-        <p>
-            This project implements Luhn's algorithm using C in order to return the correct credit card company upon recieving a 
-            credit card number from the user. The number is first determined as valid or invalid by determining the number of digits
-            in the number. Then, if the total sum, resulting from Luhn's algorithm, ends with a 0, it is a valid number. The guidelines 
-            for the credit card companies are as follows: Mastercards start with digits between 50 and 56 with 16 total digits, American Express 
-            cards start with either 34 or 37 with 15 total digits, Visa cards start with 4 with either 13 or 16 total digits, and Discover cards
-            start with 6 with 16 total digits.
-        </p>
-        <p>
-            <a href="https://github.com/heejeans/credit-card-validation/blob/main/credit.c" target="_blank">Source Code</a><br>
+        <h2 class="container animate__animated animate__pulse animate__infinite animate__slow">Credit Card Number Validator</h2><br>
+        <section class="row container">
+            <div class="col-8 text">
+                <img class="pp" src="assets/cc.jpg" alt="credit card validator code" width="500" height="285"><br>
+                Joy Son<br><i>CS50 Harvard edX, 2021</i><br>
+                <div class="tagstyle luhn">Luhn's Algorithm</div>
+                <div class="tagstyle coursework">Coursework</div><br>
+            </div><br><br><br>
+            <p class="col-4 text">
+                This project implements Luhn's algorithm using C in order to return the correct credit card company upon recieving a 
+                credit card number from the user. The number is first determined as valid or invalid by determining the number of digits
+                in the number. Then, if the total sum, resulting from Luhn's algorithm, ends with a 0, it is a valid number. The guidelines 
+                for the credit card companies are as follows: Mastercards start with digits between 50 and 56 with 16 total digits, American Express 
+                cards start with either 34 or 37 with 15 total digits, Visa cards start with 4 with either 13 or 16 total digits, and Discover cards
+                start with 6 with 16 total digits.
+            </p>
+            <p class="container text">
+            <a class="code" href="https://github.com/heejeans/credit-card-validation/blob/main/credit.c" target="_blank"><i class="fas fa-laptop-code"> Source Code</i></a><br>
             Copyright © 2021 Joy Son
-        </p>
+            </p>
+        </section>
+        
     </body>
 </html>
 
