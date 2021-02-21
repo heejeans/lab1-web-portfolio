@@ -1,0 +1,61 @@
+{
+    "about":{
+        "name": "Joy Son",
+        "photo": "assets/profile.jpg",
+        "title": "Student at Boston College",
+        "info": ["sonjs@bc.edu", "140 Commonwealth Avenue, Chestnut Hill, MA"],
+        "links": ["assets/Resume2021.pdf", "https://www.linkedin.com/in/joy-son-893820203", "https://github.com/heejeans"],
+        "description": "Joy Son is a sophomore majoring in Computer Science at Boston College. Throughout her college career, she hopes to explore and effectively learn more about the world of programming. Joy is especially interested in <b>cybersecurity</b> and <b>user privacy</b> as she believes that advancements in technology also entail more opportunities for data leaks. While she invests a lot of time into her studies, Joy also enjoys spending time with friends and meeting new people. Despite her home being in California, Joy plans to stay and settle down in Boston, post-graduation."
+    },
+    "news": [
+        {
+            "title": "Taking web application development course",
+            "date": "Feb. 1, 2021"
+        },
+        {
+            "title": "Changing major from Biology B.S. to Computer Science B.A.",
+            "date": "Jan. 20, 2021"
+        },
+        {
+            "title": "Going on mini-trip to Santa Barbara",
+            "date": "Dec. 19, 2020 ~ Dec. 20, 2020"
+        },
+        {
+            "title": "Opening digital art account for commissions",
+            "date": "July 5, 2020"
+        },
+        {
+            "title": "Taking first computer science intro course",
+            "date": "Jan. 13, 2020"
+        },
+        {
+            "title": "Starting first day of college at Boston College",
+            "date": "Aug. 27, 2019"
+        }
+    ],
+    "projects": [
+        {
+            "id": "credit",
+            "title": "Credit Card Number Validator",
+            "image": "assets/cc.jpg",
+            "author": "Joy Son",
+            "source": "CS50 Harvard edX, 2021",
+            "tags": ["Luhn's Algorithm", "Coursework"],
+            "code": "https://github.com/heejeans/credit-card-validation/blob/main/credit.c",
+            "description": "This project implements Luhn's algorithm using C in order to return the correct credit card company upon recieving a credit card number from the user. The number is first determined as valid or invalid by determining the number of digits in the number. Then, if the total sum, resulting from Luhn's algorithm, ends with a 0, it is a valid number. The guidelines for the credit card companies are as follows: Mastercards start with digits between 50 and 56 with 16 total digits, American Express cards start with either 34 or 37 with 15 total digits, Visa cards start with 4 with either 13 or 16 total digits, and Discover cards start with 6 with 16 total digits.",
+            "copyright":  "Copyright © 2021 Joy Son"
+        },
+        {
+            "id": "dna",
+            "title": "DNA Barcode Generator",
+            "image": "assets/dna.jpg",
+            "author": "Joy Son",
+            "source": "Boston College, 2020",
+            "tags": ["Gene Sequence", "Coursework"],
+            "code": "https://github.com/heejeans/DNA-barcode-generator/blob/main/code.py",
+            "description": "This program helps distinguish different DNA molecules by generating unique DNA barcodes using Python. The user retrieves this data through a text file by inputting the number of sequences and the length of the sequences needed. The barcodes are generated with the following criteria: GC-content ranging from 40% to 60%, no more than 2 consecutive identical nucleotides, exclusion of restriction sites for enzymes AgeI, AscI, BamHI, SbfI, and hamming distance of at least 3. The hamming distance refers to the number of positions, between 2 barcodes, where the nucleotides are different.",
+            "copyright": "Copyright © 2020 Joy Son"
+        }
+    ]
+
+}
