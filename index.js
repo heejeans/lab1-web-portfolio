@@ -17,9 +17,9 @@ fetch('assets/data.json')
     console.log(queryString);
     const urlParams = new URLSearchParams(queryString);
     if (urlParams.has('project')){
-    const project = urlParams.get('project');
-    console.log(project);
-    ProjectPage(project, data);
+        const project = urlParams.get('project');
+        console.log(project);
+        ProjectPage(project, data);
 }
     else{
         MainPage(data);
