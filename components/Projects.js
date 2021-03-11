@@ -49,7 +49,7 @@ export function ProjectsFilter(data){ //project button function
         console.log(event.target.value);
         const value = event.target.value;
         const projectsfiltered = data.projects.filter(project=>{
-            for (let i = 0; i < project.tags.length; i++) { //something is wrong with the for loop: only getting first item
+            for (let i = 0; i < project.tags.length; i++) {
                 if (value === project.tags[i].toLowerCase()){
                     return project;
                 }
